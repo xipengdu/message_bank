@@ -1,1 +1,0 @@
-This is a simple web page implementation of a message bank. 
