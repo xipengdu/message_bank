@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Ask{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <p>
+    Displaying up to five random messages from past submissions! 
+    <br>
+    {% for entry in result %} 
+    <message>{{entry[1]}} </message>
+                               - <i>{{entry[0]}}</i>
+    <br>
+  {% endfor %}
+  </p>
+{% endblock %}

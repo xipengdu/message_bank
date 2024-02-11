@@ -1,24 +1,40 @@
 html {
     font-family: sans-serif;
-    background: AntiqueWhite;
+    background: skyblue;
     padding: 1rem;
 }
 
 body {
     max-width: 900px;
     margin: 0 auto;
+    font-size: 20px;
 }
 
 h1 {
     color: rgb(0, 0, 0);
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     margin: 1rem 0;
     text-align: center;
+    font-size: 35px;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1rem 0;
+    text-align: center;
+    font-size: 30px;
 }
 
 a {
-    color: CornflowerBlue;
+    color: rgb(67, 130, 246);
     text-decoration: none;
+    font-size: 20px;
+}
+
+message{
+    color: Green;
+    font-size: 25px;
 }
 
 hr {
@@ -27,7 +43,7 @@ hr {
 }
 
 nav {
-    background: AntiqueWhite;
+    background: skyblue;
     padding: 0 0.5rem;
     border-radius: 25px;
 }
@@ -38,6 +54,10 @@ nav ul  {
     margin: 0;
     padding: 0;
 }
+
+p {
+    white-space: pre;
+  }  
 
 nav ul li a {
     display: block;
@@ -54,6 +74,6 @@ nav ul li a {
     text-align: center;
     margin: 1em 0;
     padding: 1em;
-    background: #cae6f6;
+    background: #abdcf9;
     border: 1px solid #377ba8;
 }
